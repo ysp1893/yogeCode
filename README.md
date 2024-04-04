@@ -17,6 +17,14 @@ Run `ng serve --open` for a dev server. Navigate to `http://localhost:4200/`. Th
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
+### Angular components
+
+- Components are the main building blocks for Angular applications. Each component consists of:
+  - An HTML template that declares what renders on the page
+  - A TypeScript class that defines behavior
+  - A CSS selector that defines how the component is used in a template
+  - Optionally, CSS styles applied to the template
+
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.

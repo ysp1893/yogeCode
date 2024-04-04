@@ -25,6 +25,21 @@ Run `ng generate component component-name` to generate a new component. You can 
   - A CSS selector that defines how the component is used in a template
   - Optionally, CSS styles applied to the template
 
+#### Creating a component using the Angular CLI
+
+- From a terminal window, navigate to the directory containing your application
+- Run the ng generate component <component-name> command, where <component-name> is the name of your new component.
+- By default, this command creates the following:
+  - A directory named after the component
+  - A component file, <component-name>.component.ts
+  - A template file, <component-name>.component.html
+  - A CSS file, <component-name>.component.css
+  - A testing specification file, <component-name>.component.spec.ts
+
+#### Introduction to components and templates
+
+- A _component controls_ a patch of screen called a view. It consists of a _TypeScript class_, an _HTML template_, and a _CSS style sheet_. The TypeScript class defines the interaction of the HTML template and the rendered DOM structure, while the style sheet describes its appearance.
+
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.

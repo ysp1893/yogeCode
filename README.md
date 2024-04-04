@@ -40,6 +40,12 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 - A _component controls_ a patch of screen called a view. It consists of a _TypeScript class_, an _HTML template_, and a _CSS style sheet_. The TypeScript class defines the interaction of the HTML template and the rendered DOM structure, while the style sheet describes its appearance.
 
+#### How to add newly created component in web browser ?
+
+- check component
+  - the selector is the component page name
+- add this name in app.component.html file at bottom like this <app-home></app-home>
+
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
